@@ -2,20 +2,9 @@ language: cpp
 dist: bionic
 compiler: gcc
 
-# Boost
-#addons: 
-#  apt: 
-#    packages: 
-#      - libboost-all-dev
-#      - libboost-graph-dev
-
 install: 
-  - sudo apt update
-  - apt search libboost-graph-dev
-  - apt search libboost-all
-  - apt search libboost-graph
-  - sudo apt install libboost-all-dev
-  - sudo apt install libboost-graph-dev
+  - sudo apt -qq update
+  - sudo apt -qq install libboost-all-dev
 
 script: 
   - qmake
