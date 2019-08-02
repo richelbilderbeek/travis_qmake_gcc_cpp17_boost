@@ -10,7 +10,7 @@ compiler: gcc
 #      - libboost-graph-dev
 
 install: 
-  - apt search libboost-all-dev
+  - apt update
   - apt search libboost-graph-dev
   - apt search libboost-all
   - apt search libboost-graph
