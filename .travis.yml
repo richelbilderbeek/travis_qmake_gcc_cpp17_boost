@@ -3,8 +3,8 @@ dist: bionic
 compiler: gcc
 
 install: 
-  - sudo apt -qq update
-  - sudo apt -qq install libboost-all-dev
+  - sudo apt update -qq
+  - sudo apt install -qq libboost-all-dev
 
 script: 
   - qmake
