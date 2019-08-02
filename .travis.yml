@@ -9,6 +9,10 @@ addons:
       - libboost-all-dev
       - libboost-graph-dev
 
+install: 
+  - sudo apt install libboost-all-dev
+  - sudo apt install libboost-graph-dev
+
 script: 
   - qmake
   - make --silent
