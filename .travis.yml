@@ -3,11 +3,11 @@ dist: bionic
 compiler: gcc
 
 # Boost
-addons: 
-  apt: 
-    packages: 
-      - libboost-all-dev
-      - libboost-graph-dev
+#addons: 
+#  apt: 
+#    packages: 
+#      - libboost-all-dev
+#      - libboost-graph-dev
 
 install: 
   - sudo apt install libboost-all-dev
