@@ -5,7 +5,9 @@ compiler: gcc
 # Boost
 addons: 
   apt: 
-    packages: libboost-all-dev
+    packages: 
+      - libboost-all-dev
+      - libboost-graph-dev
 
 script: 
   - qmake
